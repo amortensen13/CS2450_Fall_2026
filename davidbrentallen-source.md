@@ -16,3 +16,15 @@ Apollo-11 Repository Facts
 
 \* The Apollo Guidance Computer source code in the repository is public domain and lists yaYUL as its assembler.
 
+
+
+nocode Repository Facts
+
+
+
+\* The nocode repository uses `master` as its default branch.
+
+\* The repository currently contains only four commits.
+
+\* Its Dockerfile contains a single instruction: `FROM scratch`.
+
