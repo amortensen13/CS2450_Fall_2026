@@ -7,6 +7,7 @@
 
 # Step 0. **Only once**: 
   Install the latest release of the github-cli (see: https://github.com/cli/cli/releases)
+  This is so you can do the pull request at the end.
 
 # Step 1.Before merging, ensure that your working directory is clean and your branch is up-to-date.  In other words:
   1. Commit all of the files/changes to your local development/feature branch
@@ -61,10 +62,10 @@ If Git reports conflicts, you'll need to resolve them manually. Do the following
 ```
 
 Best Practices for Merging
-•	Regularly Merge Main into Feature Branches: This minimizes the risk of conflicts and keeps your feature branch up-to-date.  
-•	Commit Frequently: Smaller, frequent commits are easier to manage and less likely to cause conflicts.  Commit early.  Commit often.  (To your local branch.)
-•	Write Clear Commit Messages: Good commit messages make it easier to understand the history of changes.
-•	Use Pull Requests: For collaborative projects, pull requests provides code review and discussion before merging.
+â€¢	Regularly Merge Main into Feature Branches: This minimizes the risk of conflicts and keeps your feature branch up-to-date.  
+â€¢	Commit Frequently: Smaller, frequent commits are easier to manage and less likely to cause conflicts.  Commit early.  Commit often.  (To your local branch.)
+â€¢	Write Clear Commit Messages: Good commit messages make it easier to understand the history of changes.
+â€¢	Use Pull Requests: For collaborative projects, pull requests provides code review and discussion before merging.
 
 Based on (but with important differences!)
 https://www.geeksforgeeks.org/how-to-merge-a-git-branch-into-master/
