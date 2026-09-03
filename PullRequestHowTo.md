@@ -24,7 +24,6 @@ Start by switching to the main branch.
 Fetch and integrate the latest changes from the remote repository.
 ```bash
 		git pull origin main
-		git pull origin main
 ```
 
 
