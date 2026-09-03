@@ -34,13 +34,13 @@ Switch to the branch you want to merge into main.
 ```
 
 
-# Step 5. Ensure the Branch is Up-to-Date (and that all unit tests work and that the MAUI GUI works)
+# Step 5. Ensure the Branch is Up-to-Date (and that all unit tests work)
 Update your feature branch with the latest changes from main to minimize conflicts.
 ```bash
 		git pull origin main
 ```
 
-Step 6. Resolve Conflicts (If Any)
+# Step 6. Resolve Conflicts (If Any)
 If Git reports conflicts, you'll need to resolve them manually. Do the following two steps.
 	- **Step 6a.** Resolve Conflicts (If Any)
 	Open the files with conflicts, resolve the issues, and then mark them as resolved.
@@ -48,13 +48,13 @@ If Git reports conflicts, you'll need to resolve them manually. Do the following
 		git add resolved-file
 ```
 
-  - **Step 5b.** Commit Resolved Conflicts (If Any)
+  - **Step 6b.** Commit Resolved Conflicts (If Any)
 	This step only needs to be done if there were conflicts that were resolved.  After resolving all conflicts, complete the merge with:
 ```bash
 		git commit
 ```
 
-# Step 6. Create pull Request and Request Review
+# Step 7. Create pull Request and Request Review
 ```bash
 		gh pr create
 		gh pr review
