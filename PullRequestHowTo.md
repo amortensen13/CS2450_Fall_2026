@@ -1,6 +1,6 @@
 
 *****************************************************
-* How to create a pull request and request a review *
+# How to create a pull request and request a review 
 *****************************************************
 
 # Step 0. **Only once**: 
