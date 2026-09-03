@@ -41,8 +41,9 @@ Update your feature branch with the latest changes from main to minimize conflic
 # Step 6. Resolve Conflicts (If Any)
 If Git reports conflicts, you'll need to resolve them manually. Do the following two steps.
 
-	- **Step 6a.** Resolve Conflicts (If Any)
+- **Step 6a.** Resolve Conflicts (If Any)
 	Open the files with conflicts, resolve the issues, and then mark them as resolved.
+
 ```bash
 		git add resolved-file
 ```
