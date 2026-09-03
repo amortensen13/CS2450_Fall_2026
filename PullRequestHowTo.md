@@ -70,10 +70,8 @@ Based on (but with important differences!)
 https://www.geeksforgeeks.org/how-to-merge-a-git-branch-into-master/
 
 ****************************************************
-*                                                  *
 * How to merge pull request <#>,                   *
 * https://cli.github.com/manual/gh_pr              *
-*                                                  *
 ****************************************************
 ``` bash
 		gh pr list
