@@ -16,11 +16,11 @@
 
 
 
-\## nocode Repository Factd
+\## nocode Repository Facts
 
-\- Fact 1:
+\- Fact 1: you don't need code 
 
-\- Fact 2:
+\- Fact 2: he do  work your brain
 
-\- Fact 3:
+\- Fact 3:Thanks to this point of view, you can get an overview of your project
 
