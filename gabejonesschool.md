@@ -14,3 +14,13 @@ The repository contains 588 commits at this moment
 
 
 
+
+## nocode Repository Facts
+- Fact 1:
+Despite having no code, this repository has 4 commits.
+
+- Fact 2:
+This repository contains no code
+
+- Fact 3:
+The only "language" used in this repository is Dockerfile, so there's really no code at all, if it wasn't clear.
