@@ -13,12 +13,12 @@ class AnalogClock {
     context.clearRect(0, 0, canvas.width, canvas.height);
 
     const colors = {
-      focus: "#f97316",
-      shortBreak: "#22c55e",
-      longBreak: "#38bdf8"
+      focus: "#cdead3",
+      shortBreak: "#d0defb",
+      longBreak: "#22c55e"
     };
 
-    const accentColor = colors[mode] || "#f97316";
+    const accentColor = colors[mode] || "#f69b7a";
     const progress = totalSeconds === 0 ? 0 : remainingSeconds / totalSeconds;
 
     // Outer shadow
