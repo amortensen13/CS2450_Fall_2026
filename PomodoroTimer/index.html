@@ -295,7 +295,7 @@
       }
 
       .mode-buttons {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
       }
 
       .mode-button {
@@ -350,12 +350,17 @@
             <span>🌿</span>
             <span>Long Break<br>15 minutes</span>
           </button>
+
+          <button class="mode-button" data-mode="extendedBreak" type="button">
+            <span>🌴</span>
+            <span>30 Minute Break<br>30 minutes</span>
+          </button>
         </nav>
       </div>
 
       <div class="settings">
         <strong>Pomodoro technique</strong>
-        Focus for 25 minutes, then take a short break. Take a longer break after several focus sessions.
+        Focus for 25 minutes, then take a short break. Take a 15- or 30-minute break after several focus sessions.
       </div>
     </aside>
 
@@ -420,6 +425,11 @@
         name: "Long Break",
         title: "Recharge and reset",
         seconds: 15 * 60
+      },
+      extendedBreak: {
+        name: "30 Minute Break",
+        title: "Take an extended break",
+        seconds: 30 * 60
       }
     };
 

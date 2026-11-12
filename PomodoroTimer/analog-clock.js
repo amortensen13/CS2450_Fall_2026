@@ -15,7 +15,8 @@ class AnalogClock {
     const colors = {
       focus: "#cdead3",
       shortBreak: "#d0defb",
-      longBreak: "#22c55e"
+      longBreak: "#22c55e",
+      extendedBreak: "#a78bfa"
     };
 
     const accentColor = colors[mode] || "#f69b7a";
