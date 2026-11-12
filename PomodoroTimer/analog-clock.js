@@ -30,13 +30,13 @@ class AnalogClock {
     // Clock face
     context.beginPath();
     context.arc(center, center, radius, 0, Math.PI * 2);
-    context.fillStyle = "#1f2937";
+    context.fillStyle = "#191E1F";
     context.fill();
 
     // Background ring
     context.beginPath();
     context.arc(center, center, radius - 18, 0, Math.PI * 2);
-    context.strokeStyle = "#374151";
+    context.strokeStyle = "#B7BBBD";
     context.lineWidth = 20;
     context.stroke();
 
@@ -95,7 +95,7 @@ class AnalogClock {
     // Center point
     context.beginPath();
     context.arc(center, center, 16, 0, Math.PI * 2);
-    context.fillStyle = "#f9fafb";
+    context.fillStyle = "#F3F3F5";
     context.fill();
 
     context.beginPath();
@@ -111,7 +111,7 @@ class AnalogClock {
       ":" +
       String(seconds).padStart(2, "0");
 
-    context.fillStyle = "#f9fafb";
+    context.fillStyle = "#F3F3F5";
     context.font = "bold 56px Arial";
     context.textAlign = "center";
     context.textBaseline = "middle";
